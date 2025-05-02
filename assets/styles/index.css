@@ -1,0 +1,36 @@
+section {
+    position: relative;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/gaming-pc.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.title-image, .subtitle-image {
+    color: white;
+    margin-left: 5rem;
+}
+
+.title-image {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.subtitle-image {
+    font-size: 1.9rem;
+    margin-top: 0.4rem;
+}

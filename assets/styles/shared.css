@@ -1,0 +1,106 @@
+/* Document Styles */
+
+html {
+    min-width: 100%;
+    max-width: 100%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header Styles */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.logo-header-image {
+    width: 6rem;
+}
+
+.menu ul {
+    display: flex;
+    gap: 1rem;
+    width: fit-content;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin: 0 10px;
+    transition: .2s;
+}
+
+.menu ul li:hover {
+    transform: scale(1.1);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        z-index: 100;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu.active {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 20px;
+        background-color: var(--primary-color);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+}
+
+.contact-button {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.contact-button:hover {
+    background-color: var(--primary-color);
+    color: black;
+}
