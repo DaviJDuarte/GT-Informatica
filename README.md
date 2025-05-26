@@ -4,7 +4,6 @@
 - [Davi de Jesus Duarte](https://github.com/DaviJDuarte)
 - [Jéssica Lais Domingues Flauzino da Silva](https://github.com/JessFlauzino)
 - [Leonardo Lopes Pereira](https://github.com/LeonardoL-Bah)
-- [Luigi Ferrarini Borghi](https://github.com/PresidentMustaine)
 - [Matheus Brasil Borges Sevilha Angelotti](https://github.com/MathBra17)
 
 ## Descrição do Projeto
